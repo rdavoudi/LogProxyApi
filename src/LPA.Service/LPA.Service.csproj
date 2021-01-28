@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWarn>RCS1090</NoWarn>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Contracts\**" />
+    <Compile Remove="Customers\**" />
+    <EmbeddedResource Remove="Contracts\**" />
+    <EmbeddedResource Remove="Customers\**" />
+    <None Remove="Contracts\**" />
+    <None Remove="Customers\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DNTCommon.Web.Core" Version="2.9.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LPA.DataLayer\LPA.DataLayer.csproj" />
+    <ProjectReference Include="..\LPA.Model\LPA.Model.csproj" />
+  </ItemGroup>
+</Project>

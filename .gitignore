@@ -3,3 +3,21 @@
 ################################################################################
 
 /.vs
+/src/LPA/.vs/LPA/v16
+/src/LPA/bin/Debug/netcoreapp3.1
+/src/LPA/obj
+/src/LPA/Properties
+/src/LPA.Common/bin
+/src/LPA.Common/obj
+/src/LPA.DataLayer/bin
+/src/LPA.DataLayer/obj
+/src/LPA.Ioc/bin
+/src/LPA.Ioc/obj
+/src/LPA.Model/bin
+/src/LPA.Model/obj
+/src/LPA.Service/bin/Debug/netcoreapp3.1
+/src/LPA.Service/obj
+/src/LPA.MsTests/bin/Debug/netcoreapp3.1
+/src/LPA.MsTests/obj
+/src/LPA.ThirdPartyApi/bin/Debug/netcoreapp3.1
+/src/LPA.ThirdPartyApi/obj
