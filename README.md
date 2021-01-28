@@ -14,16 +14,22 @@ fields Summary and Message enriching record with generated id and current timest
 
 response example should be
 [{
-"id": "1",
-“title”: "Test message summary",
-“Text”: "Exceptiion occured at ...",
-"receivedAt": "2021-01-01T00:38:00.000Z"
+    "id": "1",
+    
+    "title": "Test message summary",
+    
+    "Text": "Exceptiion occured at ...",
+    
+    "receivedAt": "2021-01-01T00:38:00.000Z"
 },
 {
-"id": "1",
-“Title”: "Test message summary",
-“Text”: "Exceptiion occured at ...",
-"receivedAt": "2021-01-01T00:38:00.000Z"
+    "id": "1",
+    
+    "Title": "Test message summary",
+    
+    "Text": "Exceptiion occured at ...",
+    
+    "receivedAt": "2021-01-01T00:38:00.000Z"
 }]
 
 ⁃ Implement tests, which you think are needed for this API
