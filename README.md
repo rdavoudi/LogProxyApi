@@ -14,6 +14,7 @@ fields Summary and Message enriching record with generated id and current timest
 
 response example should be
 [{
+    
     "id": "1",
     
     "title": "Test message summary",
@@ -23,6 +24,7 @@ response example should be
     "receivedAt": "2021-01-01T00:38:00.000Z"
 },
 {
+    
     "id": "1",
     
     "Title": "Test message summary",
